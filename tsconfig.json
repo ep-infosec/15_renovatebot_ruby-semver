@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "declaration": true,
+    "declarationDir": "./dist",
+    "module": "commonjs",
+    "noImplicitAny": true,
+    "lib": ["ES2018"],
+    "outDir": "./dist",
+    /* https://github.com/microsoft/TypeScript/wiki/Node-Target-Mapping */
+    "target": "ES2018",
+    "moduleResolution": "node",
+    "importHelpers": true
+  },
+  "typedocOptions": {
+    "mode": "modules",
+    "out": "docs"
+  },
+  "include": ["lib/**/*"],
+  "exclude": ["node_modules", "dist"]
+}
